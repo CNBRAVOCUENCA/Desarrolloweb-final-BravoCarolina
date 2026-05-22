@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Entrega Final — Bravo Studio</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;max-width:900px;margin:40px auto;color:#222}
+    header{border-bottom:1px solid #ddd;margin-bottom:20px}
+    h1{color:#2a6f9e}
+    h2{color:#23577a}
+    pre{white-space:pre-wrap;background:#f8f8f8;padding:12px;border-radius:6px}
+    .section{margin-bottom:22px}
+    footer{border-top:1px solid #ddd;padding-top:12px;color:#666}
+    @media print{ body{margin:10mm} a[href]:after{content: " (" attr(href) ")"} }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Entrega Final — Bravo Studio</h1>
+    <p>Proyecto: Sitio estático institucional en HTML + SASS — 5 páginas</p>
+  </header>
+
+  <section class="section">
+    <h2>1. Introducción</h2>
+    <p><strong>Nombre:</strong> Bravo Studio</p>
+    <p><strong>Tipo:</strong> Institucional (ficticio). <strong>Objetivo:</strong> Mostrar servicios, portfolio y contacto con identidad visual en SASS.</p>
+  </section>
+
+  <section class="section">
+    <h2>2. Estructura HTML</h2>
+    <p>Archivos incluidos: <code>index.html</code>, <code>about.html</code>, <code>services.html</code>, <code>portfolio.html</code>, <code>contact.html</code>. Todas las páginas usan HTML5 semántico y una navegación consistente.</p>
+    <pre>&lt;nav class="navbar"&gt; ... &lt;/nav&gt;</pre>
+  </section>
+
+  <section class="section">
+    <h2>3. Estilos CSS / SASS</h2>
+    <p>Carpeta: <code>assets/scss/</code> con partials: <code>_variables.scss</code>, <code>_mixins.scss</code>, <code>_base.scss</code>, <code>_layout.scss</code>, <code>_components.scss</code> y <code>main.scss</code>. CSS compilado: <code>assets/css/style.css</code>.</p>
+    <pre>$primary: #2a6f9e;
+@mixin transition($p...){ transition: $p 0.25s ease-in-out; }</pre>
+  </section>
+
+  <section class="section">
+    <h2>4. Responsive y Estilos Avanzados</h2>
+    <p>Se aplican breakpoints via mixin <code>respond-to</code>, Bootstrap grid para layout, y AOS para animaciones en scroll. Pruebas en Desktop/Tablet/Mobile completadas (capturas recomendadas).</p>
+  </section>
+
+  <section class="section">
+    <h2>5. Repositorio</h2>
+    <p>URL del repo: <a href="https://github.com/CNBRAVOCUENCA/Desarrolloweb-final-BravoCarolina">https://github.com/CNBRAVOCUENCA/Desarrolloweb-final-BravoCarolina</a></p>
+    <p>Ramas: <code>main</code> y <code>gh-pages</code>. Historial con commits claros incluidos.</p>
+  </section>
+
+  <section class="section">
+    <h2>6. Demo pública</h2>
+    <p>Sitio publicado en GitHub Pages: <a href="https://cnbravocuenca.github.io/Desarrolloweb-final-BravoCarolina/">https://cnbravocuenca.github.io/Desarrolloweb-final-BravoCarolina/</a></p>
+  </section>
+
+  <section class="section">
+    <h2>7. Reflexión final</h2>
+    <p>Se cumplió con los requisitos: 5 páginas, SASS modular, uso de SEO básico, responsive y despliegue en servidor. La integración con el remoto requirió resolver historial previo; una vez resuelto, se publicó en <code>gh-pages</code>.</p>
+  </section>
+
+  <footer>
+    <p>Generado localmente. Abre este archivo en el navegador y elige "Imprimir" → "Guardar como PDF" para obtener el PDF final.</p>
+  </footer>
+</body>
+</html>
