@@ -1,0 +1,11 @@
+@import 'variables';
+.btn-primary {
+  background: $primary;
+  border-color: $primary;
+  @include transition(all);
+  &:hover { background: darken($primary, 7%); }
+}
+
+.contact-form {
+  max-width: 640px;
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contacto - Bravo Studio">
+  <title>Bravo Studio - Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Bravo Studio</a>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h1>Contacto</h1>
+    <form class="contact-form" action="#" method="post" aria-label="Formulario de contacto">
+      <div class="mb-3">
+        <label for="name" class="form-label">Nombre</label>
+        <input id="name" name="name" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" type="email" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Mensaje</label>
+        <textarea id="message" name="message" class="form-control" rows="4"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer class="bg-dark text-white py-4 text-center">
+    <small>&copy; 2026 Bravo Studio</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
