@@ -1,10 +1,17 @@
 # Documentación del Proyecto — Bravo Studio
-
 Este documento reúne la evidencia y la explicación del proyecto para la entrega final. Contiene las secciones solicitadas: Introducción, Estructura HTML, Estilos SASS/CSS, Responsive y Estilos Avanzados, Repositorio y Demo, y Reflexión final.
+
+
+1) Introducción del Proyecto
 
 ---
 
-1) Introducción del Proyecto
+Correcciones realizadas (post-feedback)
+
+- Validación de formulario: se implementó validación personalizada en `assets/js/main.js` para `contact.html` con mensajes inline y feedback accesible via `aria-live`.
+- Accesibilidad de imágenes: se añadieron textos alternativos descriptivos en las imágenes del `portfolio` y se agregó un placeholder SVG (`assets/img/placeholder.svg`) con `title`/`desc`.
+
+Recomendaciones aplicadas: incluir `srcset` para imágenes y mantener alternativas descriptivas.
 
 - Nombre del sitio web: Bravo Studio
 - Tipo de sitio: Institucional (estudio ficticio de diseño y desarrollo)
@@ -142,6 +149,15 @@ Si querés, puedo:
 
 - Generar automáticamente las capturas de pantalla básicas (si me indicas una URL pública o abro el HTML localmente y tomo screenshots desde aquí). 
 - Completar el README/DOCUMENTATION con imágenes si subes las capturas al repositorio.
+
+Fin de la documentación.
+---
+
+Demo pública
+
+El sitio está publicado en GitHub Pages en:
+
+https://cnbravocuenca.github.io/Desarrolloweb-final-BravoCarolina/
 
 Fin de la documentación.
 # Documentación del Proyecto — Bravo Studio

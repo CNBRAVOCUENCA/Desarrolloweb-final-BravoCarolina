@@ -17,19 +17,23 @@
 
   <main class="container py-5">
     <h1>Contacto</h1>
-    <form class="contact-form" action="#" method="post" aria-label="Formulario de contacto">
+    <form id="contactForm" class="contact-form" action="#" method="post" aria-label="Formulario de contacto" novalidate>
       <div class="mb-3">
         <label for="name" class="form-label">Nombre</label>
-        <input id="name" name="name" class="form-control" required>
+        <input id="name" name="name" class="form-control" aria-describedby="nameHelp" required>
+        <div id="nameHelp" class="invalid-feedback" aria-live="polite"></div>
       </div>
       <div class="mb-3">
         <label for="email" class="form-label">Email</label>
-        <input id="email" name="email" type="email" class="form-control" required>
+        <input id="email" name="email" type="email" class="form-control" aria-describedby="emailHelp" required>
+        <div id="emailHelp" class="invalid-feedback" aria-live="polite"></div>
       </div>
       <div class="mb-3">
         <label for="message" class="form-label">Mensaje</label>
-        <textarea id="message" name="message" class="form-control" rows="4"></textarea>
+        <textarea id="message" name="message" class="form-control" rows="4" aria-describedby="messageHelp" required></textarea>
+        <div id="messageHelp" class="invalid-feedback" aria-live="polite"></div>
       </div>
+      <div id="contactStatus" aria-live="polite" class="mb-3"></div>
       <button class="btn btn-primary" type="submit">Enviar</button>
     </form>
   </main>
